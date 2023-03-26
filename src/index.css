@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.dark-mode{
+  --background-color: #222121;
+  --captcha-heading: #222121;
+  --captcha-background: #706d6d;
+  --captcha-image: url(./asset/img/cap2.jpg)
+}
+
+.light-mode{
+  --background-color: rgb(177, 211, 239);
+  --captcha-heading:rgb(177, 211, 239);
+  --captcha-background: #fff;
+  --captcha-image: url(./asset/img/cap.jpg);
+  --captcha-text-color: rgba(237, 236, 236, 0.8);
+  --captcha-text-shadow: 0 0 3px #bbbbbb, 0 0 5px #c1c1c5;
+}
+
+body{
+  background-color: var(--background-color);
+}
